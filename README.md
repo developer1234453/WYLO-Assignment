@@ -1,70 +1,77 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+WYLO Assignment
+This project is a React application for managing posts, including creating, editing, and displaying them. The application uses Redux for state management to keep track of the posts' data, providing a user-friendly interface for interacting with the posts.
 
-### `npm start`
+Table of Contents
+Setup and Environment
+Component Structure
+State Management
+Form Handling
+API Interaction
+Editing Posts
+Deployment
+Improvement and Creativity
+Running the Application
+License
+Contact
+Setup and Environment
+Ensure you have Node.js installed. You can download it from here.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Create a new React project using Create React App:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npx create-react-app wylo-assignment
+cd wylo-assignment
+Install the required dependencies:
 
-### `npm test`
+bash
+Copy code
+npm install redux react-redux redux-thunk redux-devtools-extension
+Component Structure
+The application consists of the following components:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+PostItem Component: Handles the display of each post on the screen, including an option to edit the post.
+PostsDisplay Component: Displays all the posts by retrieving and showing a list of post items.
+CreatePost Component: Includes a form for creating new posts, handling input fields for post details such as title and content.
+State Management
+The application uses Redux for state management. Redux helps in keeping track of the posts’ data across the application, making it easier to manage and update the state when users create or edit posts.
 
-### `npm run build`
+Form Handling
+Form inputs are validated before allowing users to submit.
+Feedback is provided for successful or unsuccessful post creation.
+API Interaction
+If necessary, use fetch to interact with any required backend API to fetch posts. Handle API responses and update the state accordingly.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Editing Posts
+The application handles the logic for editing a post, which includes showing the current post's data in the form and saving the changes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Deployment
+Deploy your application using platforms like Heroku or Netlify. Ensure that the backend API (if any) is accessible to the frontend.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Deploy to Netlify
+Create an account on Netlify if you don't have one.
+Connect your GitHub repository to Netlify.
+Follow the instructions to deploy your application.
+Improvement and Creativity
+You are encouraged to add any improvements or creativity beyond the basic requirements. This could include features like:
 
-### `npm run eject`
+Post categories
+User authentication
+A more sophisticated UI
+Running the Application
+Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy code
+npm start
+Open your browser and navigate to http://localhost:3000 to see the application in action.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+License
+This project is licensed under the MIT License.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contact
+For any inquiries or feedback, please contact [Midhun A] at [midhunchandera@gmail.com].
+github link: https://github.com/developer1234453/WYLO-Assignment/edit/master/README.md
